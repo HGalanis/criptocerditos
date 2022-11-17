@@ -25,6 +25,9 @@
       <a-asset-item id="ccModel"
         src="https://cdn.jsdelivr.net/gh/HGalanis/criptocerditos@main/cc/cc07.gltf">
       </a-asset-item>
+      <a-asset-item id="ccModel_15"
+      src="https://cdn.jsdelivr.net/gh/HGalanis/criptocerditos@main/cc/cc15.gltf">
+    </a-asset-item>
     </a-assets>
 
     <a-camera position="0 0 0" look-controls="enabled: true"></a-camera>
@@ -34,6 +37,11 @@
       <a-gltf-model rotation="0 0 0 " position="0 0 0" scale="30 30 30" src="#ccModel"
         animation="property: rotation; to: 0 360 0; loop: true; dur: 7500">
     </a-entity>
+    <a-entity mindar-image-target="targetIndex: 1">
+      <a-gltf-model rotation="0 0 0 " position="0 0 0" scale="30 30 30" src="#ccModel_15"
+      animation="property: rotation; to: 0 360 0; loop: true; dur: 7500">
+    </a-entity>
+
 
   </a-scene>
 </body>
