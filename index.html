@@ -21,14 +21,22 @@
         src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.1.5/examples/image-tracking/assets/card-example/softmind/scene.gltf">
       </a-asset-item>
       <a-asset-item id="ccModel"
-        src="https://cdn.jsdelivr.net/gh/HGalanis/criptocerditos@main/cc/cc07.gltf">
+        src="https://cdn.jsdelivr.net/gh/HGalanis/criptocerditos@main/cc/cc15.gltf">
       </a-asset-item>
     </a-assets>
 
     <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
     <a-scene stats></a-scene>
 
-    <a-entity mindar-image-target="targetIndex: 0">
+    <!--cc#15-->
+    <a-entity mindar-image-target="targetIndex: 0"> <!--cc#15-->
+      <!-- <a-plane src="#card" position="0 0 0" height="1.25" width="1.25" rotation="0 0 0"></a-plane> -->
+      <a-gltf-model rotation="0 0 0 " position="0 0 0" scale="70 70 70" src="#ccModel"
+        animation="property: rotation; to: 0 360 0; loop: true; dur: 7500">
+    </a-entity>
+
+    <!--cc#  -->
+    <a-entity mindar-image-target="targetIndex: 1">
       <!-- <a-plane src="#card" position="0 0 0" height="1.25" width="1.25" rotation="0 0 0"></a-plane> -->
       <a-gltf-model rotation="0 0 0 " position="0 0 0" scale="70 70 70" src="#ccModel"
         animation="property: rotation; to: 0 360 0; loop: true; dur: 7500">
