@@ -1,0 +1,290 @@
+{
+    "asset": {
+        "copyright": "2021 (c) Adobe Inc.",
+        "generator": "Adobe Substance 3D Stager - 804036e4e00b93c31f53a426bb47c1050ccd806a",
+        "version": "2.0"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 54104,
+            "type": "VEC3",
+            "max": [
+                0.009925469756126404,
+                0.018091389909386636,
+                0.01378658041357994
+            ],
+            "min": [
+                -0.009925469756126404,
+                0.0,
+                -0.013303710147738457
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 54104,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 54104,
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5126,
+            "count": 54104,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 4,
+            "componentType": 5125,
+            "count": 319968,
+            "type": "SCALAR",
+            "max": [
+                54103.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 649248,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 649248,
+            "byteLength": 649248,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1298496,
+            "byteLength": 865664,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 2164160,
+            "byteLength": 432832,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 2596992,
+            "byteLength": 1279872,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 3876864,
+            "uri": "cc42_binary.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "perspective": {
+                "znear": 0.000010000000656873454,
+                "yfov": 0.3995896875858307,
+                "zfar": 2.0,
+                "aspectRatio": 1.7777777910232545
+            },
+            "type": "perspective",
+            "name": "working_cam"
+        }
+    ],
+    "images": [
+        {
+            "name": "base_color_image_texture",
+            "uri": "cc42_images/base_color_image_texture.jpg",
+            "mimeType": "image/jpeg"
+        },
+        {
+            "name": "ambient_occlusion_image_texture_sampler",
+            "uri": "cc42_images/ambient_occlusion_image_texture_sampler.png",
+            "mimeType": "image/png"
+        },
+        {
+            "name": "normal_image_texture",
+            "uri": "cc42_images/normal_image_texture.png",
+            "mimeType": "image/png"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0,
+                    "extensions": {
+                        "KHR_texture_transform": {
+                            "offset": [
+                                -0.6293203830718994,
+                                0.22285409271717072
+                            ],
+                            "rotation": 0.6806784272193909,
+                            "scale": [
+                                0.9999999403953552,
+                                0.9999999403953552
+                            ]
+                        }
+                    }
+                },
+                "metallicFactor": 0.0,
+                "metallicRoughnessTexture": {
+                    "index": 1,
+                    "extensions": {
+                        "KHR_texture_transform": {
+                            "offset": [
+                                -0.6293203830718994,
+                                0.22285409271717072
+                            ],
+                            "rotation": 0.6806784272193909,
+                            "scale": [
+                                0.9999999403953552,
+                                0.9999999403953552
+                            ]
+                        }
+                    }
+                }
+            },
+            "normalTexture": {
+                "index": 2,
+                "extensions": {
+                    "KHR_texture_transform": {
+                        "offset": [
+                            -0.6293203830718994,
+                            0.22285409271717072
+                        ],
+                        "rotation": 0.6806784272193909,
+                        "scale": [
+                            0.9999999403953552,
+                            0.9999999403953552
+                        ]
+                    }
+                }
+            },
+            "occlusionTexture": {
+                "index": 1,
+                "extensions": {
+                    "KHR_texture_transform": {
+                        "offset": [
+                            -0.6293203830718994,
+                            0.22285409271717072
+                        ],
+                        "rotation": 0.6806784272193909,
+                        "scale": [
+                            0.9999999403953552,
+                            0.9999999403953552
+                        ]
+                    }
+                }
+            },
+            "name": "cc #42",
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "PiggyBank",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TANGENT": 2,
+                        "TEXCOORD_0": 3
+                    },
+                    "indices": 4,
+                    "material": 0
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "translation": [
+                0.550000011920929,
+                0.3199999928474426,
+                0.550000011920929
+            ],
+            "rotation": [
+                -0.12059047073125839,
+                0.379409521818161,
+                0.04995020851492882,
+                0.9159756302833557
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                0.9999999403953552
+            ],
+            "camera": 0,
+            "name": "working_cam_n3d"
+        },
+        {
+            "translation": [
+                0.00007728661876171827,
+                0.0,
+                -0.0002758248010650277
+            ],
+            "rotation": [
+                0.0,
+                -0.052335966378450397,
+                0.0,
+                0.9986295104026794
+            ],
+            "scale": [
+                1.000000238418579,
+                1.0,
+                1.000000238418579
+            ],
+            "mesh": 0,
+            "name": "PiggyBank - 42"
+        }
+    ],
+    "samplers": [
+        {}
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1
+            ],
+            "name": "scene"
+        }
+    ],
+    "textures": [
+        {
+            "name": "base_color_image_texture",
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "name": "ambient_occlusion_image_texture_sampler",
+            "sampler": 0,
+            "source": 1
+        },
+        {
+            "name": "normal_image_texture",
+            "sampler": 0,
+            "source": 2
+        }
+    ],
+    "scene": 0,
+    "extensionsUsed": [
+        "KHR_texture_transform"
+    ],
+    "extensionsRequired": [
+        "KHR_texture_transform"
+    ]
+}
